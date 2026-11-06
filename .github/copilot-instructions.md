@@ -59,6 +59,11 @@ Before opening or updating a PR, also make the **PR-time consistency pass** docu
   Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
   ```
 
+## Cross-tool handoffs
+
+- This repository can serve as a shared handoff point for coding assistants, but it does not directly link accounts or chat sessions.
+- When preparing a task handoff, update [`HANDOFF.md`](../HANDOFF.md) with concise context, status, decisions, changed files, verification, and next steps. Keep it free of credentials and other secrets.
+
 ## Things NOT to do here
 
 - Don't add the demo app's application code — Astro SSR endpoints, the Drizzle data layer, `.astro` UI components, Tailwind classes, or Vitest/Playwright tests. That belongs in `github-samples/tailspin-toys`.
